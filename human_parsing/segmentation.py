@@ -41,7 +41,7 @@ class Segmentation:
 
         target_transform = Compose([Rotate(limit=(-90, -90), p=1), HorizontalFlip(p=1)])
 
-        self._inference = SegmentationInference(self._model.cuda()).set_target_transform(target_transform)
+        self._inference = SegmentationInference(self._model).set_target_transform(target_transform)
 
         if accuracy_lvl == Segmentation.Level.LEVEL_1:
             self._inference.set_tta([RotateTTA(angle_range=(107, 107)), RotateTTA(angle_range=(34, 34)),
