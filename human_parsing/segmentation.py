@@ -33,8 +33,11 @@ class Segmentation:
         LEVEL_2 = 3
 
     def __init__(self, accuracy_lvl: Level = Level.LEVEL_1):
-        self._model = load_state_dict_from_url("https://drive.google.com/file/d/1FmVmoV3p4CBBrKOUsxfaovZz7Ir62FnG/view?usp=sharing",
-                                               model_dir=os.path.join(os.path.expanduser("~"), '.human_parsing', 'segmentation'))
+        try:
+            self._model = load_state_dict_from_url("https://github.com/HumanParsingSDK/weights/raw/master/segmentation/model.pth",
+                                                   model_dir=os.path.join(os.path.expanduser("~"), '.human_parsing', 'segmentation'))
+        except Exception as err:
+            raise RuntimeError("Can't download weights. Check internet connection or try to update human_parsing sdk. Error message: [{}]".format(err))
 
         target_transform = Compose([Rotate(limit=(-90, -90), p=1), HorizontalFlip(p=1)])
 
