@@ -13,7 +13,11 @@
 ## Supported tasks:
 * Person whole stature segmentation
 
+Sample 1 | Sample 2 | Sample 3                                           
+:---:|:---:|:---:
+![alt-text-1](figures/result1.jpg) | ![alt-text-2](figures/result2.jpg) | ![alt-text-2](figures/result3.jpg)
+
 ## Weights storage
-Weights and models are hosted on [Google Drive](https://drive.google.com/drive/folders/1CPyT08JIRvxYxJZYqVy90n6UwL0Tkj3t?usp=sharing)
+Weights and models are hosted [there](https://github.com/HumanParsingSDK/weights)
 
 It'll be download automatically to your `<path to user home dir>/.human_parsing` directory
