@@ -1,9 +1,9 @@
 # Human Parsing SDK API
 
 # Installation:
-[![PyPI version](https://badge.fury.io/py/huamn_parsing.svg)](https://badge.fury.io/py/huamn_parsing)
-[![PyPI Downloads/Month](https://pepy.tech/badge/huamn_parsing/month)](https://pepy.tech/project/huamn_parsing)
-[![PyPI Downloads](https://pepy.tech/badge/huamn_parsing)](https://pepy.tech/project/huamn_parsing)
+[![PyPI version](https://badge.fury.io/py/human-parsing.svg)](https://badge.fury.io/py/human-parsing)
+[![PyPI Downloads/Month](https://pepy.tech/badge/human-parsing/month)](https://pepy.tech/project/human-parsing)
+[![PyPI Downloads](https://pepy.tech/badge/human-parsing)](https://pepy.tech/project/human-parsing)
 
 `pip install human_parsing`
 
