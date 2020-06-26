@@ -1,5 +1,7 @@
 # Human Parsing SDK API
 
+See the [demo](https://colab.research.google.com/drive/1J0Aq8ZzhncrQTlpht2rYqceV9qHwdHZO?usp=sharing).
+
 # Installation:
 [![PyPI version](https://badge.fury.io/py/huamn_parsing.svg)](https://badge.fury.io/py/huamn_parsing)
 [![PyPI Downloads/Month](https://pepy.tech/badge/huamn_parsing/month)](https://pepy.tech/project/huamn_parsing)
